@@ -9,6 +9,25 @@
   color: white;
 }
 
+
+#rojito1 {
+  animation: bounce 1s infinite ease-in alternate;
+}
+
+#rojito2 {
+  animation: bounce 1s infinite ease-in alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+
 .App-logo {
   height: 40vmin;
 }
@@ -27,5 +46,8 @@
   z-index: 1000000;
 }
 .text-white {
+  font-size: 25px;
+  
   color: aliceblue;
 }
+
